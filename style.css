@@ -5,6 +5,8 @@
   --text-color: #242b1f;
   --body-color: #eaede8;
   --color-dark-green: #5b6b51;
+  --color-medium-grey: #d9dbd7;
+  --color-light-green: #e0e3de;
 }
 
 body {
@@ -16,12 +18,12 @@ header .navbar-collapse {
   flex-grow: 0;
 }
 
-h1 {
+h1,
+h2 {
   font-family: var(--secondary-font);
   color: var(--text-color);
 }
 
-h2,
 h3,
 p,
 a,
@@ -44,6 +46,10 @@ ul {
   padding-left: 10px;
 }
 
+.tekst-bredde {
+  max-width: 60ch;
+}
+
 #splash .portrat,
 #om-mig .portrat {
   background-size: cover;
@@ -59,4 +65,26 @@ ul {
 #om-mig .portrat {
   background-image: url(img/portrat2.jpg);
   background-position-y: 10%;
+}
+
+picture img {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-caption {
+  position: initial;
+  padding-top: 0;
+}
+
+/* projekter.html */
+
+#gak,
+#hauli {
+  background-color: var(--color-light-green);
+}
+
+.box-grey {
+  background-color: var(--color-medium-grey);
 }
