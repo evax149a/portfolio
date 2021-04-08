@@ -1,0 +1,62 @@
+:root {
+  --primary-font: "Arsenal", sans-serif;
+  --secondary-font: "Playfair Display", serif;
+
+  --text-color: #242b1f;
+  --body-color: #eaede8;
+  --color-dark-green: #5b6b51;
+}
+
+body {
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+header .navbar-collapse {
+  flex-grow: 0;
+}
+
+h1 {
+  font-family: var(--secondary-font);
+  color: var(--text-color);
+}
+
+h2,
+h3,
+p,
+a,
+.navbar-light .navbar-nav .nav-link,
+li {
+  font-family: var(--primary-font);
+  color: var(--text-color);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 1.3rem;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul {
+  border-left: 1px solid var(--color-dark-green);
+  padding-left: 10px;
+}
+
+#splash .portrat,
+#om-mig .portrat {
+  background-size: cover;
+  background-position: center;
+  height: 30vw;
+}
+
+#splash .portrat {
+  background-image: url(img/portrat.jpg);
+  background-position: center;
+}
+
+#om-mig .portrat {
+  background-image: url(img/portrat2.jpg);
+  background-position-y: 10%;
+}

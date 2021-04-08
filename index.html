@@ -12,11 +12,146 @@
       integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arsenal:ital@0;1&family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header></header>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"
+            >Eva Kjær Hansen | Portfolio</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="#cv">CV</a>
+              <a class="nav-link" href="#">Projekter</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-    <main></main>
+    <main class="container">
+      <section id="splash">
+        <div class="row py-5">
+          <div class="col-8 align-self-center">
+            <h1>Eva Kjær Hansen</h1>
+            <h2>
+              Jeg giver dig svar på
+              <span class="fremhav">HVEM, HVAD, HVORDAN & HVORFOR</span>
+            </h2>
+            <h3>UX & UI Design | Brugerindsigter | Branding</h3>
+          </div>
+          <div class="col-4 portrat"></div>
+        </div>
+      </section>
+      <section id="brander">
+        <div class="row py-5">
+          <div class="col d-flex justify-content-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="998"
+              height="546"
+              viewBox="0 0 998 546"
+            >
+              <ellipse
+                id="Ellipse_1"
+                data-name="Ellipse 1"
+                cx="272.5"
+                cy="273"
+                rx="272.5"
+                ry="273"
+                fill="rgba(119,168,107,0.55)"
+              />
+              <ellipse
+                id="Ellipse_2"
+                data-name="Ellipse 2"
+                cx="272.5"
+                cy="273"
+                rx="272.5"
+                ry="273"
+                transform="translate(453)"
+                fill="#cfd9cc"
+                style="mix-blend-mode: multiply; isolation: isolate"
+              />
+            </svg>
+          </div>
+        </div>
+      </section>
+      <section id="om-mig">
+        <div class="row py-5">
+          <div class="col-4 portrat"></div>
+          <div class="col-8">
+            <h2>Om mig</h2>
+            <p>
+              Jeg studerer multimediedesign på KEA, og er i gang med en
+              specialisering i design og indholdsproduktion. Jeg har desuden en
+              bachelor i psykologi og bærer en del viden og erfaring med mig
+              derfra. Min kerneinteresse er UX design med fokus på
+              brugeroplevelse og -adfærd. Derudover synes jeg brandidentitet og
+              det konsistente visuelle udtryk er virkelig spændende. Jeg er
+              motiveret af at skabe en god oplevelse af et produkt, der tjener
+              både brugeren og virksomheden, hvor det hele spiller sammen. Jeg
+              er desuden god til at holde det generelle overblik i komplekse
+              sager og synes det er sjovt at koge noget ind til ”kernen”.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <h3>CV</h3>
+            <ul>
+              <li>Multimediestuderende på KEA, 3. semester</li>
+              <li>Bachelor i Psykologi fra Københavnsuniversitet</li>
+              <li>Oprindeligt fra nordsjælland, bosat i KBH</li>
+              <li>28år</li>
+            </ul>
+          </div>
+
+          <div class="col-4">
+            <h3>Personligt</h3>
+            <ul>
+              <li>Smilende</li>
+              <li>Åben</li>
+              <li>Tillidsfuld</li>
+              <li>Loyal</li>
+              <li>Reflekterende</li>
+              <li>Social</li>
+            </ul>
+          </div>
+
+          <div class="col-4">
+            <h3>Professionelt</h3>
+            <ul>
+              <li>Overblik</li>
+              <li>Grundig</li>
+              <li>Gruppe og samarbejde</li>
+              <li>Resultatorienteret</li>
+              <li>Serviceminded</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="cv"></section>
+    </main>
 
     <footer></footer>
 
@@ -25,5 +160,6 @@
       integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>
