@@ -67,6 +67,11 @@ ul {
   background-position-y: 10%;
 }
 
+#brander svg {
+  max-width: 800px;
+  height: auto;
+}
+
 picture img {
   max-width: 1000px;
   margin-left: auto;
