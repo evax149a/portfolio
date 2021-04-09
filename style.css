@@ -5,8 +5,11 @@
   --text-color: #242b1f;
   --body-color: #eaede8;
   --color-dark-green: #5b6b51;
+  --color-dark-green-2: #69795f;
+  --color-dark-grey: #737870;
   --color-medium-grey: #d9dbd7;
   --color-light-green: #e0e3de;
+  --color-green: #77a86b;
 }
 
 body {
@@ -25,6 +28,7 @@ h2 {
 }
 
 h3,
+h4,
 p,
 a,
 .navbar-light .navbar-nav .nav-link,
@@ -86,10 +90,41 @@ picture img {
 /* projekter.html */
 
 #gak,
-#hauli {
+#hauli,
+#tuborg,
+#portfolio {
   background-color: var(--color-light-green);
 }
 
 .box-grey {
   background-color: var(--color-medium-grey);
+}
+
+.projects h2 {
+  text-transform: uppercase;
+}
+
+.project-description-h3 {
+  color: var(--color-dark-grey);
+  font-family: var(--secondary-font);
+  font-size: 1.4rem;
+}
+
+.project-description-h4 {
+  color: var(--color-dark-green);
+  /* font-size: 1.2rem; */
+}
+
+.btn-outline-secondary {
+  /* border: 1px solid var(--color-green); */
+  border: 1px solid transparent;
+  color: var(--color-light-green);
+  background-color: var(--color-dark-green-2);
+  box-shadow: 2px 2px 5px #77a86b33;
+}
+
+.btn-outline-secondary:hover {
+  background-color: var(--color-green);
+  color: var(--text-color);
+  border: 1px solid transparent;
 }
